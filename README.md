@@ -97,5 +97,6 @@ Le projet intègre deux systèmes d’authentification :
 Ce projet est sous licence privée. Toute reproduction ou utilisation non autorisée est interdite.
 
 ---
-Développé par [Ton Nom / Équipe Dev Action Verticale]
+Développé par SoloDesign
+
 
