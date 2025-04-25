@@ -1,5 +1,9 @@
 # Action Verticale Club - Web Platform
-![ChatGPT Image 25 avr  2025, 17_03_28](https://github.com/user-attachments/assets/e20aaecc-8c32-4a27-b8b6-27f20021bbd5)
+
+
+https://github.com/user-attachments/assets/8b8a09b9-d06f-4529-a727-c6a46f260107
+
+
 
 Bienvenue dans le dépôt du site web **Action Verticale Club**, une plateforme web moderne développée avec **Next.js**, **TypeScript**, **Tailwind CSS** et **Prisma**. Cette application est conçue pour offrir une expérience fluide, interactive et fonctionnelle pour la gestion, la communication et l’engagement communautaire autour des activités du club.
 
