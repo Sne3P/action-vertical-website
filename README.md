@@ -1,45 +1,97 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Action Verticale Club - Web Platform
+![ChatGPT Image 25 avr  2025, 17_03_28](https://github.com/user-attachments/assets/e20aaecc-8c32-4a27-b8b6-27f20021bbd5)
 
-## Getting Started
+Bienvenue dans le dépôt du site web **Action Verticale Club**, une plateforme web moderne développée avec **Next.js**, **TypeScript**, **Tailwind CSS** et **Prisma**. Cette application est conçue pour offrir une expérience fluide, interactive et fonctionnelle pour la gestion, la communication et l’engagement communautaire autour des activités du club.
 
-First, run the development server:
+## 🔧 Stack technique
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Framework principal** : Next.js 15
+- **Langage** : TypeScript
+- **Base de données** : Prisma (SQLite en dev)
+- **Styling** : Tailwind CSS 3
+- **Authentification** : Kinde Auth + NextAuth
+- **Stockage & Upload** : Uploadthing, @vercel/blob, Multer
+- **UI & Animation** : Framer Motion, Flowbite, HeadlessUI
+- **3D & Visualisation** : @react-three/fiber, drei, @google/model-viewer
+- **PDF & Éditeur** : React PDF, Froala WYSIWYG, React Quill
+- **Autres outils** : Axios, Lodash, React Hook Form, Recharts, React Select
+
+## 📁 Structure du projet
+
+```
+action-vertical-website-main/
+├── prisma/                  # Fichiers de base de données Prisma (dev.db, schema.prisma)
+├── public/                  # Ressources statiques
+├── src/
+│   ├── app/                 # Pages (architecture app directory Next.js)
+│   ├── components/          # Composants UI
+│   ├── lib/                 # Fonctions utilitaires, logique métier
+│   ├── styles/              # Fichiers CSS/Tailwind
+│   ├── types/               # Déclarations de types TS
+│   ├── hooks/               # Custom React Hooks
+│   └── ...
+├── .eslintrc.json           # Configuration ESLint
+├── tailwind.config.ts       # Configuration Tailwind
+├── next.config.mjs          # Configuration Next.js
+├── tsconfig.json            # Configuration TypeScript
+├── package.json             # Dépendances et scripts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Démarrage rapide
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prérequis
+- Node.js 18+
+- Yarn ou npm
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Installation
+```bash
+git clone https://github.com/USERNAME/action-vertical-website.git
+cd action-vertical-website
+yarn install
+```
 
-## Learn More
+### Lancer en dev
+```bash
+yarn dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+### Build de production
+```bash
+yarn build
+yarn start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Base de données (Prisma)
+```bash
+yarn prisma generate
+yarn prisma migrate dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🔐 Authentification
+Le projet intègre deux systèmes d’authentification :
+- **Kinde Auth** pour une solution OAuth centralisée
+- **NextAuth** pour des cas d’usage personnalisés
 
-## Deploy on Vercel
+## 📦 Fonctionnalités clés
+- Système d’authentification sécurisé
+- Gestion d’utilisateurs et de rôles
+- Upload et traitement de fichiers (PDF, images, vidéos)
+- Visualisation 3D d’objets (fibres, modèles .glb)
+- Éditeurs de texte riche
+- Dashboard avec graphiques, tableaux et KPIs
+- Composants UI interactifs et responsifs
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contribution
+> Projet privé / interne — les contributions externes ne sont pas activement recherchées pour le moment.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🛠 À venir
+- Intégration de tests automatisés (Jest, Cypress)
+- Documentation technique API + endpoints
+- Internationalisation (i18n)
 
+## 📄 Licence
+Ce projet est sous licence privée. Toute reproduction ou utilisation non autorisée est interdite.
 
+---
+Développé par [Ton Nom / Équipe Dev Action Verticale]
 
-
-
-
-
-
-BASTIEN EST PASSER PAR LA 
